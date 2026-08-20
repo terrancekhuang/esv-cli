@@ -33,9 +33,9 @@ A Bash CLI for fetching ESV Bible passages from the terminal.
 ```bash
 ./verse "John 3:16"
 ./verse "John 3:16-17"
-./verse "John 3:16-17; Matthew 28:18-20"  # multiple passages
-echo "John 3:16" | ./verse                 # piped input
-cat verses.txt | ./verse                   # one reference per line
+./verse "John 3:16-17; Matthew 28:18-20"    # multiple passages separated by semicolon
+echo "John 3:16" | ./verse                  # piped input
+cat verses.txt | ./verse                    # one reference per line
 ```
 
 **Options:**
